@@ -289,22 +289,7 @@ margin-top: 0;
   margin: 0;
 } */
 
-/* Pricing Table */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-  }
 
-th, td {
-  border: 1px solid #40916c;
-  padding: 12px;
-  text-align: center;
-}
-
-th {
-  background: #00713B;
-}
 
 #contact{
   background-image: url("assets/footer bg2.jpg");  
