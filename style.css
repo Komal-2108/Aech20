@@ -49,7 +49,7 @@ p {
 .brand img {
  
 
-  max-width: 12vw;
+  max-width: 150px;
   height: auto;
 padding: 0;
 margin-top: 0;
@@ -246,8 +246,8 @@ margin-top: 0;
 
 
 .responsive-img {
-  width: 55vh;
-  height : 70vh;
+   max-width: 100%;   /* never exceed container */
+  height: auto;      /* maintain aspect ratio */
   border-radius: 10px;
 
   
@@ -294,7 +294,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
-}
+  }
 
 th, td {
   border: 1px solid #40916c;
@@ -367,5 +367,28 @@ th {
   }
   #bg-video {
     display: none;
+  }
+  
+}
+@media (max-width: 600px) {
+  table {
+    font-size: 0.9rem;
+  }
+  th, td {
+    padding: 0.5em;
+  }
+}
+@media (max-width: 768px) {
+  .responsive-img {
+    max-width: 80%;
+    margin: 0 auto;   /* center it */
+    display: block;
+  }
+}
+
+/* Large screens (desktop) */
+@media (min-width: 1024px) {
+  .responsive-img {
+    max-width: 400px;
   }
 }
