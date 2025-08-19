@@ -307,7 +307,7 @@ th {
 }
 
 #contact{
-  background-image: url("/assets/footer bg2.jpg");  
+  background-image: url("assets/footer bg2.jpg");  
   background-repeat: no-repeat;           
   background-size: cover;                  
   background-position: center;
